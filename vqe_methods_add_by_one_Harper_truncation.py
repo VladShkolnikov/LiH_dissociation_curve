@@ -1,11 +1,9 @@
 import scipy
-import openfermion
-import openfermionpsi4
 import math
 
-from openfermion.utils import commutator
+import pickle
 import numpy as np
-import random 
+
 # import cirq
 # import openfermioncirq
 # from openfermioncirq import trotter
@@ -13,12 +11,12 @@ import scipy.sparse.linalg
 
 import operator_pools
 from tVQE import tUCCSD
-import re
-from openfermion import *
-from pyscf_backend import *
-from of_translator import *
 
-QubitNumber=12
+#from openfermion import *
+#from pyscf_backend import *
+#from of_translator import *
+
+QubitNumber=10
 
 
 
@@ -46,13 +44,33 @@ def adapt_vqe(geometry,
     
     #Number of frozen virtual orbitals.
     frozen_vir = 0
-    _0body_H, _1body_H, _2body_H, _1rdm, hf_energy = get_integrals(geometry, basis, reference, frozen_core = frozen_core, frozen_vir = frozen_vir)
-    
-    N_e = int(np.trace(_1rdm))
-  
-    
-    #Use OpenFermion to build sparse matrix representations of JW-transformed operators:
-    H, ref, N_qubits, S2, Sz, Nop = of_from_arrays(_0body_H, _1body_H, _2body_H, N_e)
+    try:
+        file = open("MolecularHamiltonian",'rb')
+        objectsFromFile = pickle.load(file)
+        
+        _0body_H = objectsFromFile[0][0]
+        _1body_H = objectsFromFile[0][1]
+        _2body_H = objectsFromFile[0][2] 
+        _1rdm = objectsFromFile[0][3] 
+        hf_energy = objectsFromFile[0][4] 
+ 
+        
+        H = objectsFromFile[1][0]
+        ref = objectsFromFile[1][1]
+        N_qubits = objectsFromFile[1][2] 
+        S2 = objectsFromFile[1][3] 
+        Sz = objectsFromFile[1][4] 
+        Nop = objectsFromFile[1][5] 
+        
+        N_e = int(np.trace(_1rdm))
+    except:
+        
+        _0body_H, _1body_H, _2body_H, _1rdm, hf_energy = get_integrals(geometry, basis, reference, frozen_core = frozen_core, frozen_vir = frozen_vir)
+        N_e = int(np.trace(_1rdm))
+        #Use OpenFermion to build sparse matrix representations of JW-transformed operators:
+        H, ref, N_qubits, S2, Sz, Nop = of_from_arrays(_0body_H, _1body_H, _2body_H, N_e)
+        with open('MolecularHamiltonian' , 'wb') as myHandle:
+            pickle.dump(((_0body_H, _1body_H, _2body_H, _1rdm, hf_energy),(H, ref, N_qubits, S2, Sz, Nop)), myHandle, protocol=pickle.HIGHEST_PROTOCOL) 
     #, ref, N_qubits, S2, Sz, Nop)
     #H is the Hamiltonian, ref is the HF reference in the active space.  S2, S_z, and N_op are the S^2, S_z, and number operators if you happen to want them.
     
@@ -77,22 +95,36 @@ def adapt_vqe(geometry,
 
 
 
+    HamiltonianSupport=set(['0000000011','0000001100','0000110000','0001000010','0010000001','0011000000','0100000010','0110000000','1000000001','1001000000','1100000000'])
 
 
 
- 
-    w, v = scipy.sparse.linalg.eigs(hamiltonian, which='SR')
+
+
+
+
+
+
+
+
+    w, v = scipy.sparse.linalg.eigs(hamiltonian,k=1, which='SR')   
     GSE = min(w).real
-    print(hamiltonian)
-    print(w)
     a=v.transpose()[0]
     a.real[abs(a.real) < 1e-10] = 0.0
     a.imag[abs(a.imag) < 1e-10] = 0.0
-    print(scipy.sparse.csr_matrix(a))
-    cx = scipy.sparse.coo_matrix(a)
+    #print(scipy.sparse.csr_matrix(a))
+    cx = scipy.sparse.coo_matrix(v.transpose()[0])
+    CompareSet=set()
     for i in cx.col:
         tmp=bin(i)[2:]
-        print ((10-len(tmp))*'0'+tmp)
+        CompareSet.add((10-len(tmp))*'0'+tmp)
+    if CompareSet.difference(HamiltonianSupport) or HamiltonianSupport.difference(CompareSet):
+        print(CompareSet.difference(HamiltonianSupport) )
+        print( HamiltonianSupport.difference(CompareSet))
+        print(len(HamiltonianSupport))
+        print(len(CompareSet))
+        raise NameError('Unlucky error, Openfermion flipped orbitals, pool must be swaped') 
+    
         
     print('Ground state energy:', GSE)
 
