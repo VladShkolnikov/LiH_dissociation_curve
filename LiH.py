@@ -2,9 +2,22 @@ import sys
 import vqe_methods_add_by_one_Harper_truncation
 import numpy
 import pickle
+import numpy as np
 
 
-dist=sys.argv[1]
+min_dist = float(sys.argv[1])
+max_dist = float(sys.argv[2])
+num_step = int(sys.argv[3])
+id_step = int(sys.argv[4])
+
+dist_list = list(np.linspace(min_dist, max_dist, num_step))
+dist_list = list(map(lambda x: round(x, 5), dist_list))
+
+
+dist=dist_list[id_step]
+
+print(f'The list of distances to compute is: {dist_list}')
+print(f'I am the distance: {dist}')
 
 
 PoolOfHope=['XYYZIIZIZY', 'XYYYIZZZII', 'YYIZZZIZXY', 'XXZXZIIIYI', 'XYZYIZZIYI', 'XXXZIIZZZY', 'XXIIYXZZII', 'XYXZXXXYZY', 'XXIYIIXYZY', 'IIZIZZYYXY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YXZZIZYYII', 'IXIZXXZZYI']
