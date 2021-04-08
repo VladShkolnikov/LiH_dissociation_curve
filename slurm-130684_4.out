@@ -1,0 +1,712 @@
+The list of distances to compute is: [1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0]
+I am the distance: 1.4
+Li 0 0 0; H 0 0 1.4
+Problem reduced to 10 qubits.
+HF energy:                 -7.8605386610211827
+Active space FCI energy:    -7.8782306532490152
+n_electrons: 2
+0.0
+molecule.n_orbitals: 5
+ adapt threshold: 1e-08
+ theta threshold: 1e-10
+ Generate Sparse Matrices for operators in pool
+Ground state energy: -7.878230653249013
+initial energy -7.860538661021183
+ Start ADAPT-VQE algorithm
+ Now start to grow the ansatz
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  0
+ --------------------------------------------------------------------------
+['XYYZIIZIZY']
+ Finished:      -7.861899572867
+ Error:       0.016331080382
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  1
+ --------------------------------------------------------------------------
+['YYIZZZIZXY', 'XYYZIIZIZY']
+ Finished:      -7.874822323671
+ Error:       0.003408329578
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  2
+ --------------------------------------------------------------------------
+['XXZXZIIIYI', 'YYIZZZIZXY', 'XYYZIIZIZY']
+ Finished:      -7.876250931903
+ Error:       0.001979721346
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  3
+ --------------------------------------------------------------------------
+['YXZZIZYYII', 'XXZXZIIIYI', 'YYIZZZIZXY', 'XYYZIIZIZY']
+ Finished:      -7.876866138596
+ Error:       0.001364514653
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  4
+ --------------------------------------------------------------------------
+['YXZZIZYYII', 'XXIIYXZZII', 'XXZXZIIIYI', 'YYIZZZIZXY', 'XYYZIIZIZY']
+ Finished:      -7.877452315922
+ Error:       0.000778337327
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  5
+ --------------------------------------------------------------------------
+['YXZZIZYYII', 'XXIIYXZZII', 'XXZXZIIIYI', 'XYYYIZZZII', 'YYIZZZIZXY', 'XYYZIIZIZY']
+ Finished:      -7.877769994751
+ Error:       0.000460658498
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  6
+ --------------------------------------------------------------------------
+['YXZZIZYYII', 'XXIIYXZZII', 'XXZXZIIIYI', 'XYYYIZZZII', 'YYIZZZIZXY', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877797156610
+ Error:       0.000433496639
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  7
+ --------------------------------------------------------------------------
+['YXZZIZYYII', 'XXIIYXZZII', 'XXZXZIIIYI', 'XYYYIZZZII', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877801434718
+ Error:       0.000429218531
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  8
+ --------------------------------------------------------------------------
+['YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XYYYIZZZII', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877816771531
+ Error:       0.000413881718
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  9
+ --------------------------------------------------------------------------
+['YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXXZIIZZZY', 'XYYYIZZZII', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877831560310
+ Error:       0.000399092939
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  10
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXXZIIZZZY', 'XYYYIZZZII', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877831713194
+ Error:       0.000398940055
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  11
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXXZIIZZZY', 'XYYYIZZZII', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877838248560
+ Error:       0.000392404689
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  12
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXXZIIZZZY', 'XYYYIZZZII', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877846765204
+ Error:       0.000383888045
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  13
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'XXXZIIZZZY', 'XYYYIZZZII', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877850767616
+ Error:       0.000379885633
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  14
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'XXXZIIZZZY', 'XYYYIZZZII', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877850771415
+ Error:       0.000379881834
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  15
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'XXXZIIZZZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877851579528
+ Error:       0.000379073721
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  16
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'XXXZIIZZZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877854520992
+ Error:       0.000376132257
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  17
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'XXXZIIZZZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'YZZZXYZZZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877854524545
+ Error:       0.000376128704
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  18
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'YZZZXYZZZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877870409890
+ Error:       0.000360243359
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  19
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'YZZZXYZZZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877998072676
+ Error:       0.000232580573
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  20
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.877998807471
+ Error:       0.000231845778
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  21
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878000377055
+ Error:       0.000230276194
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  22
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878000495406
+ Error:       0.000230157843
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  23
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878000829287
+ Error:       0.000229823962
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  24
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878016780384
+ Error:       0.000213872865
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  25
+ --------------------------------------------------------------------------
+['XXXZIIZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878023641693
+ Error:       0.000207011556
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  26
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XXXZIIZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878024215267
+ Error:       0.000206437982
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  27
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878030994971
+ Error:       0.000199658278
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  28
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'ZZXZXXIIZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878055314568
+ Error:       0.000175338681
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  29
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'ZZXZXXIIZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878058758503
+ Error:       0.000171894746
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  30
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878059482465
+ Error:       0.000171170785
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  31
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878059686419
+ Error:       0.000170966830
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  32
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878060505890
+ Error:       0.000170147359
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  33
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878060620807
+ Error:       0.000170032442
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  34
+ --------------------------------------------------------------------------
+['XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878060622952
+ Error:       0.000170030297
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  35
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878060847285
+ Error:       0.000169805964
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  36
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878060912527
+ Error:       0.000169740722
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  37
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878060958831
+ Error:       0.000169694418
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  38
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878060959406
+ Error:       0.000169693843
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  39
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878060992203
+ Error:       0.000169661046
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  40
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878061005945
+ Error:       0.000169647304
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  41
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878061007761
+ Error:       0.000169645488
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  42
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878061023273
+ Error:       0.000169629976
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  43
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878061556334
+ Error:       0.000169096915
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  44
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878061732894
+ Error:       0.000168920355
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  45
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878061780995
+ Error:       0.000168872254
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  46
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878226867044
+ Error:       0.000003786205
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  47
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878227284520
+ Error:       0.000003368729
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  48
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878228901285
+ Error:       0.000001751964
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  49
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878229040465
+ Error:       0.000001612784
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  50
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878229150564
+ Error:       0.000001502685
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  51
+ --------------------------------------------------------------------------
+['XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878229467921
+ Error:       0.000001185328
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  52
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878229532572
+ Error:       0.000001120677
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  53
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878229634691
+ Error:       0.000001018558
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  54
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878229750899
+ Error:       0.000000902350
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  55
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYYZIIZIZY']
+ Finished:      -7.878229790116
+ Error:       0.000000863133
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  56
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'XYYZIIZIZY']
+ Finished:      -7.878229848320
+ Error:       0.000000804929
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  57
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'XYYZIIZIZY']
+ Finished:      -7.878229938552
+ Error:       0.000000714697
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  58
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'XYYZIIZIZY']
+ Finished:      -7.878230154394
+ Error:       0.000000498855
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  59
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'XYYZIIZIZY']
+ Finished:      -7.878230402530
+ Error:       0.000000250720
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  60
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'YXZZIZYYII', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'XYYZIIZIZY']
+ Finished:      -7.878230523987
+ Error:       0.000000129262
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  61
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'YZZZXYZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'YXZZIZYYII', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'XYYZIIZIZY']
+ Finished:      -7.878230626198
+ Error:       0.000000027051
+1.4
+
+
+
+
+ --------------------------------------------------------------------------
+                         ADAPT-VQE iteration:  62
+ --------------------------------------------------------------------------
+['XYXZXXXYZY', 'XYYYIZZZII', 'XXIYIIXYZY', 'ZZXZXXIIZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'XYYZIIZIZY', 'XYXZXXXYZY', 'XXXZIIZZZY', 'YZZZXYZZZY', 'XYXZXXXYZY', 'XYYYIZZZII', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XXXZIIZZZY', 'YXZZIZYYII', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'XYXZXXXYZY', 'XXIIYXZZII', 'XYYZIIZIZY', 'IIZIZZYYXY', 'IXIZXXZZYI', 'YXZZIZYYII', 'XXZXZIIIYI', 'XXIIYXZZII', 'ZZXZXXIIZY', 'XXXZIIZZZY', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYYYIZZZII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'IXIZXXZZYI', 'XXIYIIXYZY', 'YYIZZZIZXY', 'YZZZXYZZZY', 'IIZIZZYYXY', 'XYYZIIZIZY', 'IIZIZZYYXY', 'XYYYIZZZII', 'XYXZXXXYZY', 'XYZYIZZIYI', 'XYXZXXXYZY', 'XXIYIIXYZY', 'XXZXZIIIYI', 'ZZXZXXIIZY', 'XXIYIIXYZY', 'XXIIYXZZII', 'YZZZXYZZZY', 'IIZIZZYYXY', 'YYIZZZIZXY', 'XXIYIIXYZY', 'XYZYIZZIYI', 'IXIZXXZZYI', 'YXZZIZYYII', 'IIZIZZYYXY', 'XYXZXXXYZY', 'XYYZIIZIZY']
+ Finished:      -7.878230648201
+ Error:       0.000000005048
+
+ 
+ ------------------------------------------ 
+
