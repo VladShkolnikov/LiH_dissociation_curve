@@ -178,7 +178,7 @@ def adapt_vqe(geometry,
                     parameters_res.insert(pos,0)
                         
                         
-       
+            print(max_derivative)
             
             ansatz_mat=ansatz_mat_res
             ansatz_ops=ansatz_ops_res
